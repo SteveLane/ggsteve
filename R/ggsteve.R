@@ -4,7 +4,7 @@
 ## Author: Steve Lane
 ## Date: Thursday, 08 June 2017
 ## Synopsis: Creates a theme similar to 538. Requires ggplot2 of course.
-## Time-stamp: <2017-06-08 13:41:54 (slane)>
+## Time-stamp: <2017-07-19 20:53:24 (slane)>
 ################################################################################
 ################################################################################
 theme_steve <- function(base_size = 12, base_family = "mono"){
@@ -23,7 +23,6 @@ theme_steve <- function(base_size = 12, base_family = "mono"){
             panel.border = element_rect(fill = NA),
             rect = element_rect(fill = "#F2F2F2", linetype = 0, colour = NA),
             text = element_text(colour = "#2B4450"),
-            axis.title = element_blank(),
             axis.text = element_text(),
             axis.ticks = element_blank(),
             axis.line = element_blank(),
